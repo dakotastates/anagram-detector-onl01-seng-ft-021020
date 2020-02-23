@@ -6,7 +6,7 @@ class Anagram
   end
   
   def match(something_else)
-    match = %w[]
+    match = []
     something_else.each do |word| 
       if word.sort == @some_word.sort
         match << word
