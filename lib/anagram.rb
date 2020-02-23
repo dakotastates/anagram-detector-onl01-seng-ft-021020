@@ -10,9 +10,6 @@ class Anagram
     something_else.each do |word| 
       if word.sort == @some_word.sort
         match << word
-      else
-        nil
     end
-    match
   end
 end
